@@ -264,3 +264,147 @@ nav {
     font-size: 20px;
 }
 /* ============================================ */
+/* ============== COMPLETE MOBILE RESPONSIVE ============== */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    
+    /* Container adjustments */
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* ===== HEADER ===== */
+    header {
+        padding: 12px 0;
+    }
+    
+    nav {
+        padding: 0 15px;
+    }
+    
+    .logo {
+        font-size: 22px;
+    }
+    
+    /* ===== HERO SECTION ===== */
+    .hero {
+        min-height: 100vh;
+        padding: 100px 20px 60px;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 12px;
+    }
+    
+    .hero .title {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+    
+    .hero .location {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    
+    .hero > div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        justify-content: center;
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+    
+    /* ===== ABOUT SECTION ===== */
+    .about {
+        padding: 50px 15px;
+    }
+    
+    .about h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .about p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    
+    /* ===== SERVICES SECTION ===== */
+    .services {
+        padding: 50px 15px;
+    }
+    
+    .services h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .service-card {
+        padding: 25px 20px;
+    }
+    
+    .service-icon {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .service-card h3 {
+        font-size: 16px;
+    }
+    
+    .service-card p {
+        font-size: 13px;
+    }
+    
+    .service-price {
+        font-size: 18px;
+    }
+}
+
+/* Small phones (480px and below) */
+@media (max-width: 480px) {
+    
+    .hero {
+        padding: 80px 15px 40px;
+    }
+    
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero .title {
+        font-size: 14px;
+    }
+    
+    .hero .location {
+        font-size: 13px;
+    }
+    
+    .about h2,
+    .services h2 {
+        font-size: 22px;
+    }
+    
+    .btn {
+        max-width: 100%;
+    }
+}
+/* ===================================================== */
