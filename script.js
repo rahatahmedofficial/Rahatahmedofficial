@@ -24,3 +24,32 @@ document.addEventListener('click', function(e) {
         menu.classList.remove('active');
     }
 });
+// ============== DARK MODE TOGGLE ==============
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.querySelector('.theme-icon');
+
+// Page load হলে saved theme check করো
+if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+    document.body.classList.remove('light-mode');
+    if (themeIcon) themeIcon.textContent = '☀️';
+}
+
+// Toggle button click এ theme change করো
+if (themeToggle) {
+    themeToggle.addEventListener('click', function() {
+        // Toggle class
+        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('light-mode');
+        
+        // Save choice
+        if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+            if (themeIcon) themeIcon.textContent = '☀️';
+        } else {
+            localStorage.setItem('theme', 'light');
+            if (themeIcon) themeIcon.textContent = '🌙';
+        }
+    });
+}
+// ============================================
