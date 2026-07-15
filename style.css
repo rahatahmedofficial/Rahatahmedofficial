@@ -407,4 +407,103 @@ nav {
         max-width: 100%;
     }
 }
+
+/* ============== THEME TOGGLE BUTTON ============== */
+.theme-toggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.theme-icon {
+    font-size: 22px;
+}
+
+/* ============== DARK MODE ============== */
+body.dark-mode {
+    background: #1F2937;
+    color: #F9FAFB;
+}
+
+body.dark-mode header {
+    background: #111827;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+}
+
+body.dark-mode .logo,
+body.dark-mode .menu li a {
+    color: #F9FAFB;
+}
+
+body.dark-mode .menu li a:hover {
+    color: #3B82F6;
+    background: #374151;
+}
+
+body.dark-mode .about,
+body.dark-mode .contact {
+    background: #111827;
+}
+
+body.dark-mode .about h2,
+body.dark-mode .services h2,
+body.dark-mode .contact h2,
+body.dark-mode .service-card h3 {
+    color: #F9FAFB;
+}
+
+body.dark-mode .about p,
+body.dark-mode .service-card p,
+body.dark-mode .contact-info {
+    color: #D1D5DB;
+}
+
+body.dark-mode .service-card {
+    background: #374151;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+body.dark-mode .theme-toggle {
+    background: #374151;
+}
+
+body.dark-mode .theme-icon::after {
+    content: '☀️';
+}
+
+body.dark-mode .theme-icon {
+    font-size: 0;
+}
+
+body.dark-mode .theme-icon::after {
+    font-size: 22px;
+}
+
+/* Mobile: Toggle position adjust */
+@media (max-width: 768px) {
+    .theme-toggle {
+        top: 12px;
+        right: 70px;
+        width: 40px;
+        height: 40px;
+    }
+}
+/* ========================================= */
 /* ===================================================== */
