@@ -115,3 +115,61 @@ nav {
     margin: 0 auto;
 }
 /* ========================================= */
+/* ============== SERVICES SECTION ============== */
+.services {
+    padding: 80px 20px;
+    background: white;
+}
+
+.services h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #111827;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+.service-card p {
+    color: #6B7280;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.service-price {
+    color: #F59E0B;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* ============================================ */
