@@ -57,4 +57,16 @@ if (themeToggle) {
     margin-bottom: 15px;
     color: yellow;  /* 🆕 এই line add করো! */
 }
+.btn {
+    background: white;
+    color: #3B82F6;
+    padding: 14px 32px;
+    border-radius: 50px;  /* 🆕 30px → 50px (আরো গোল) */
+    /* বাকি same */
+}
+.service-card h3 {
+    font-size: 24px;  /* 🆕 18px → 24px */
+    margin-bottom: 10px;
+    color: #111827;
+}
 // ============================================
