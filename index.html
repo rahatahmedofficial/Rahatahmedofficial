@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রাহাত আহমেদ - AI-Powered Web Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>রাহাত আহমেদ - AI-Powered Web Developer & CMS Creator</title>
+    <meta name="description" content="AI-Powered Web Developer from Sunamganj, Bangladesh. Building modern websites with AI tools.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="light-mode">
 
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+    </button>
+
     <!-- ========== HEADER ========== -->
     <header>
         <nav>
-            <a href="#home" class="logo">রাহাত</a>
+            <a href="#home" class="logo">
+                <span class="logo-icon">RA</span>
+                <span class="logo-text">রাহাত</span>
+            </a>
             <ul class="menu" id="menu">
-                <li><a href="#home">হোম</a></li>
-                <li><a href="#about">আমার সম্পর্কে</a></li>
+                <li><a href="#home" class="active">হোম</a></li>
+                <li><a href="#about">সম্পর্কে</a></li>
                 <li><a href="#services">সেবা</a></li>
+                <li><a href="#projects">প্রজেক্ট</a></li>
                 <li><a href="#contact">যোগাযোগ</a></li>
             </ul>
             <button class="menu-toggle" id="menuToggle" aria-label="Menu">
@@ -29,107 +41,306 @@
 
     <!-- ========== HERO SECTION ========== -->
     <section id="home" class="hero">
-        <h1>রাহাত আহমেদ</h1>
-        <p class="title">AI-Powered Web Developer & CMS Creator</p>
-        <p class="location">📍 সুনামগঞ্জ, সিলেট, বাংলাদেশ</p>
-        <div class="hero-buttons">
-            <a href="#contact" class="btn">কাজ দিন</a>
-            <a href="#services" class="btn btn-2">আমার সেবা</a>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">রাহাত আহমেদ</h1>
+            <h2 class="hero-title">AI-Powered Web Developer & CMS Creator</h2>
+            <p class="hero-location">📍 সুনামগঞ্জ, সিলেট, বাংলাদেশ</p>
+            <div class="hero-badges">
+                <span class="badge">🎓 HSC 2nd Year</span>
+                <span class="badge">💻 5+ Projects</span>
+                <span class="badge">🩸 4x Blood Donor</span>
+                <span class="badge">🏆 5x Science Fair Winner</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">🚀 কাজ দিন</a>
+                <a href="#projects" class="btn btn-secondary">💼 কাজ দেখুন</a>
+            </div>
         </div>
     </section>
 
     <!-- ========== ABOUT SECTION ========== -->
     <section id="about" class="about">
-        <h2>আমার সম্পর্কে</h2>
-        <p>
-            আমি রাহাত আহমেদ, সুনামগঞ্জের একজন উচ্চ মাধ্যমিক বিজ্ঞানের ছাত্র 
-            এবং AI-চালিত ওয়েব ডেভেলপার। আমি HTML, CSS, JavaScript এবং 
-            AI-সহায়ক ডেভেলপমেন্ট টুল ব্যবহার করে আধুনিক ওয়েবসাইট তৈরি করি।
-        </p>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ABOUT ME</span>
+                <h2 class="section-title">আমার সম্পর্কে</h2>
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    আমি রাহাত আহমেদ, সুনামগঞ্জের একজন উচ্চ মাধ্যমিক বিজ্ঞানের ছাত্র এবং AI-চালিত ওয়েব ডেভেলপার। আমি HTML, CSS, JavaScript এবং AI-সহায়ক ডেভেলপমেন্ট টুল ব্যবহার করে আধুনিক, রেসপনসিভ এবং ডায়নামিক ওয়েবসাইট তৈরি করি।
+                </p>
+                <p class="about-text">
+                    ওয়েব ডেভেলপমেন্টের পাশাপাশি, আমি একজন প্রাইভেট শিক্ষক এবং Shantichakra Blood Society এর Co-Founder ও General Secretary। আমার লক্ষ্য — ১০০+ client এর website বানানো এবং freelance এর মাধ্যমে income তৈরি করা।
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">GPA 5.00</div>
+                    <div class="stat-label">SSC & PSC</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4x</div>
+                    <div class="stat-label">Blood Donor</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Science Fairs Won</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ========== SERVICES SECTION ========== -->
     <section id="services" class="services">
-        <h2>আমার সেবাসমূহ</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">🌐</div>
-                <h3>ওয়েব ডেভেলপমেন্ট</h3>
-                <p>আধুনিক রেসপনসিভ ওয়েবসাইট</p>
-                <div class="service-price">৳8,000+</div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">SERVICES</span>
+                <h2 class="section-title">আমার সেবাসমূহ</h2>
+                <p class="section-subtitle">Professional web solutions tailored for your needs</p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">⚙️</div>
-                <h3>কাস্টম CMS</h3>
-                <p>ডায়নামিক অ্যাডমিন প্যানেল</p>
-                <div class="service-price">৳15,000+</div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>ওয়েব ডেভেলপমেন্ট</h3>
+                    <p>আধুনিক রেসপনসিভ ওয়েবসাইট। Portfolio, Business, School, Organization সব।</p>
+                    <ul class="service-features">
+                        <li>✅ Responsive Design</li>
+                        <li>✅ SEO Ready</li>
+                        <li>✅ Fast Loading</li>
+                    </ul>
+                    <div class="service-price">৳8,000+</div>
+                    <a href="#contact" class="service-btn">Order Now →</a>
+                </div>
+                <div class="service-card service-card-featured">
+                    <div class="featured-badge">⭐ POPULAR</div>
+                    <div class="service-icon">⚙️</div>
+                    <h3>Custom CMS</h3>
+                    <p>WordPress alternative - নিজের Admin Panel দিয়ে content manage করুন।</p>
+                    <ul class="service-features">
+                        <li>✅ Admin Panel</li>
+                        <li>✅ Database</li>
+                        <li>✅ User Roles</li>
+                    </ul>
+                    <div class="service-price">৳15,000+</div>
+                    <a href="#contact" class="service-btn">Order Now →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO Optimization</h3>
+                    <p>Google এ rank করুন। Basic on-page SEO এবং performance boost।</p>
+                    <ul class="service-features">
+                        <li>✅ Meta Tags</li>
+                        <li>✅ Sitemap</li>
+                        <li>✅ Speed Boost</li>
+                    </ul>
+                    <div class="service-price">৳3,000+</div>
+                    <a href="#contact" class="service-btn">Order Now →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Maintenance</h3>
+                    <p>মাসিক support ও update। Bug fix, backup, security সব।</p>
+                    <ul class="service-features">
+                        <li>✅ Updates</li>
+                        <li>✅ Backup</li>
+                        <li>✅ Support</li>
+                    </ul>
+                    <div class="service-price">৳2,000/মাস</div>
+                    <a href="#contact" class="service-btn">Order Now →</a>
+                </div>
             </div>
-            <div class="service-card">
-                <div class="service-icon">🔍</div>
-                <h3>SEO অপটিমাইজেশন</h3>
-                <p>Google এ rank করুন</p>
-                <div class="service-price">৳3,000+</div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PORTFOLIO</span>
+                <h2 class="section-title">আমার কাজ</h2>
+                <p class="section-subtitle">A showcase of my recent work</p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">🛠️</div>
-                <h3>রক্ষণাবেক্ষণ</h3>
-                <p>মাসিক সাপোর্ট ও আপডেট</p>
-                <div class="service-price">৳2,000/মাস</div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <span class="project-category">Web</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>Modern responsive portfolio with admin panel.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <span class="project-category">CMS</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Shimulbakh Union Parishad</h3>
+                        <p>Modern Union Parishad website with admin panel.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>CMS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <span class="project-category">AI</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Study Guardian AI</h3>
+                        <p>AI-powered student productivity app.</p>
+                        <div class="project-tags">
+                            <span>Kotlin</span>
+                            <span>AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <span class="project-category">App</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tuition Reminder Pro</h3>
+                        <p>Smart Android tuition scheduling app.</p>
+                        <div class="project-tags">
+                            <span>Kotlin</span>
+                            <span>Room DB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SHANTICHAKRA SECTION ========== -->
+    <section class="shantichakra">
+        <div class="container">
+            <div class="shantichakra-content">
+                <span class="section-tag section-tag-red">🩸 SOCIAL SERVICE</span>
+                <h2>Shantichakra Blood Society</h2>
+                <p class="shantichakra-desc">
+                    একটি voluntary organization dedicated to connecting blood donors with patients, organizing awareness campaigns, and serving the community।
+                </p>
+                <div class="role-badge">Co-Founder & General Secretary</div>
+                <div class="shantichakra-stats">
+                    <div class="sc-stat">
+                        <div class="sc-number">4+</div>
+                        <div class="sc-label">Blood Donated</div>
+                    </div>
+                    <div class="sc-stat">
+                        <div class="sc-number">A+</div>
+                        <div class="sc-label">Blood Group</div>
+                    </div>
+                    <div class="sc-stat">
+                        <div class="sc-number">2025</div>
+                        <div class="sc-label">Founded</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ========== CONTACT SECTION ========== -->
     <section id="contact" class="contact">
-        <h2>যোগাযোগ করুন</h2>
-        <p class="contact-subtitle">আপনার প্রজেক্ট নিয়ে কথা বলুন</p>
-        <div class="contact-grid">
-            <div class="contact-info">
-                <a href="mailto:rahatbd20505@gmail.com" class="contact-item">
-                    <div class="contact-icon">📧</div>
-                    <div><h4>Email</h4><p>rahatbd20505@gmail.com</p></div>
-                </a>
-                <a href="tel:+8801626224878" class="contact-item">
-                    <div class="contact-icon">📞</div>
-                    <div><h4>Phone</h4><p>+880 1626-224878</p></div>
-                </a>
-                <a href="https://wa.me/8801626224878" target="_blank" class="contact-item">
-                    <div class="contact-icon">💬</div>
-                    <div><h4>WhatsApp</h4><p>+880 1626-224878</p></div>
-                </a>
-                <div class="contact-item">
-                    <div class="contact-icon">📍</div>
-                    <div><h4>Location</h4><p>সুনামগঞ্জ, সিলেট, বাংলাদেশ</p></div>
-                </div>
-                <div class="contact-social">
-                    <h4>Social Media</h4>
-                    <div class="social-icons">
-                        <a href="https://facebook.com/rahat.ahmed.948943" target="_blank">📘</a>
-                        <a href="https://github.com/rahatahmedbd" target="_blank">🐙</a>
-                        <a href="https://instagram.com/rahatahm6d" target="_blank">📷</a>
-                        <a href="https://youtube.com/@RahatAhmedOfficial0" target="_blank">🎬</a>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CONTACT</span>
+                <h2 class="section-title">যোগাযোগ করুন</h2>
+                <p class="section-subtitle">আপনার প্রজেক্ট নিয়ে কথা বলুন</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-side">
+                    <a href="mailto:rahatbd20505@gmail.com" class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div><h4>Email</h4><p>rahatbd20505@gmail.com</p></div>
+                    </a>
+                    <a href="tel:+8801626224878" class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div><h4>Phone</h4><p>+880 1626-224878</p></div>
+                    </a>
+                    <a href="https://wa.me/8801626224878" target="_blank" class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div><h4>WhatsApp</h4><p>+880 1626-224878</p></div>
+                    </a>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div><h4>Location</h4><p>সুনামগঞ্জ, সিলেট, বাংলাদেশ</p></div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://facebook.com/rahat.ahmed.948943" target="_blank" class="social-link">📘 Facebook</a>
+                        <a href="https://github.com/rahatahmedbd" target="_blank" class="social-link">🐙 GitHub</a>
+                        <a href="https://instagram.com/rahatahm6d" target="_blank" class="social-link">📷 Instagram</a>
+                        <a href="https://youtube.com/@RahatAhmedOfficial0" target="_blank" class="social-link">🎬 YouTube</a>
                     </div>
                 </div>
-            </div>
-            <div class="contact-form">
-                <h3>Message পাঠান</h3>
-                <form onsubmit="handleSubmit(event)">
-                    <input type="text" placeholder="আপনার নাম" required>
-                    <input type="email" placeholder="আপনার Email" required>
-                    <input type="text" placeholder="বিষয়">
-                    <textarea placeholder="আপনার বার্তা" rows="5" required></textarea>
-                    <button type="submit" class="btn">📨 বার্তা পাঠান</button>
-                </form>
+                <div class="contact-form-side">
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <input type="text" placeholder="আপনার নাম" required>
+                        <input type="email" placeholder="আপনার Email" required>
+                        <input type="text" placeholder="বিষয়">
+                        <textarea placeholder="আপনার বার্তা" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">📨 বার্তা পাঠান</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ========== FOOTER ========== -->
     <footer>
-        <p>© 2026 রাহাত আহমেদ। সর্বস্বত্ব সংরক্ষিত।</p>
-        <p>Made with ❤️ in Bangladesh 🇧🇩</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">RA</span>
+                    <h3>রাহাত আহমেদ</h3>
+                    <p>AI-Powered Web Developer & CMS Creator</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <a href="#services">Web Development</a>
+                    <a href="#services">Custom CMS</a>
+                    <a href="#services">SEO</a>
+                    <a href="#services">Maintenance</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📧 rahatbd20505@gmail.com</p>
+                    <p>📞 +880 1626-224878</p>
+                    <p>📍 Sunamganj, Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 রাহাত আহমেদ। All rights reserved.</p>
+                <p>Made with ❤️ in Bangladesh 🇧🇩 | In memory of Late Farid Ahmed 🕊️</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html>
+                        </html>
