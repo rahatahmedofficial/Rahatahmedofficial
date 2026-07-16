@@ -52,4 +52,9 @@ if (themeToggle) {
         }
     });
 }
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: yellow;  /* 🆕 এই line add করো! */
+}
 // ============================================
