@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রাহাত আহমেদ - Portfolio</title>
-    
+    <title>রাহাত আহমেদ - AI-Powered Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="light-mode">
 
-    <!-- ========== HEADER (Navigation) ========== -->
-        <header>
+    <!-- ========== HEADER ========== -->
+    <header>
         <nav>
             <a href="#home" class="logo">রাহাত</a>
-            
             <ul class="menu" id="menu">
                 <li><a href="#home">হোম</a></li>
                 <li><a href="#about">আমার সম্পর্কে</a></li>
                 <li><a href="#services">সেবা</a></li>
                 <li><a href="#contact">যোগাযোগ</a></li>
             </ul>
-            
             <button class="menu-toggle" id="menuToggle" aria-label="Menu">
                 <span></span>
                 <span></span>
@@ -28,61 +26,110 @@
             </button>
         </nav>
     </header>
-<!-- Dark Mode Toggle Button -->
-<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-    <span class="theme-icon">🌙</span>
-</button>
+
     <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero">
+        <h1>রাহাত আহমেদ</h1>
+        <p class="title">AI-Powered Web Developer & CMS Creator</p>
+        <p class="location">📍 সুনামগঞ্জ, সিলেট, বাংলাদেশ</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn">কাজ দিন</a>
+            <a href="#services" class="btn btn-2">আমার সেবা</a>
+        </div>
+    </section>
+
     <!-- ========== ABOUT SECTION ========== -->
-     <section id="about" class="about">
+    <section id="about" class="about">
         <h2>আমার সম্পর্কে</h2>
         <p>
             আমি রাহাত আহমেদ, সুনামগঞ্জের একজন উচ্চ মাধ্যমিক বিজ্ঞানের ছাত্র 
             এবং AI-চালিত ওয়েব ডেভেলপার। আমি HTML, CSS, JavaScript এবং 
             AI-সহায়ক ডেভেলপমেন্ট টুল ব্যবহার করে আধুনিক ওয়েবসাইট তৈরি করি।
         </p>
-         <p class="title">AI-Powered Web Developer & CMS Creator</p>
     </section>
-    <!-- =================================== -->
-    <!-- পরের section এখানে যোগ হবে -->
+
     <!-- ========== SERVICES SECTION ========== -->
     <section id="services" class="services">
         <h2>আমার সেবাসমূহ</h2>
         <div class="services-grid">
-            
             <div class="service-card">
                 <div class="service-icon">🌐</div>
                 <h3>ওয়েব ডেভেলপমেন্ট</h3>
-                <h3>Website Maintenance & Support</h3>
                 <p>আধুনিক রেসপনসিভ ওয়েবসাইট</p>
                 <div class="service-price">৳8,000+</div>
             </div>
-            
             <div class="service-card">
                 <div class="service-icon">⚙️</div>
                 <h3>কাস্টম CMS</h3>
                 <p>ডায়নামিক অ্যাডমিন প্যানেল</p>
                 <div class="service-price">৳15,000+</div>
             </div>
-            
             <div class="service-card">
                 <div class="service-icon">🔍</div>
                 <h3>SEO অপটিমাইজেশন</h3>
                 <p>Google এ rank করুন</p>
                 <div class="service-price">৳3,000+</div>
             </div>
-            
             <div class="service-card">
                 <div class="service-icon">🛠️</div>
                 <h3>রক্ষণাবেক্ষণ</h3>
                 <p>মাসিক সাপোর্ট ও আপডেট</p>
                 <div class="service-price">৳2,000/মাস</div>
             </div>
-            
         </div>
     </section>
-    <!-- =================================== -->
-<!-- এই line টা </body> এর আগে থাকতে হবে -->
-<script src="script.js"></script>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="contact">
+        <h2>যোগাযোগ করুন</h2>
+        <p class="contact-subtitle">আপনার প্রজেক্ট নিয়ে কথা বলুন</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <a href="mailto:rahatbd20505@gmail.com" class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div><h4>Email</h4><p>rahatbd20505@gmail.com</p></div>
+                </a>
+                <a href="tel:+8801626224878" class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div><h4>Phone</h4><p>+880 1626-224878</p></div>
+                </a>
+                <a href="https://wa.me/8801626224878" target="_blank" class="contact-item">
+                    <div class="contact-icon">💬</div>
+                    <div><h4>WhatsApp</h4><p>+880 1626-224878</p></div>
+                </a>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div><h4>Location</h4><p>সুনামগঞ্জ, সিলেট, বাংলাদেশ</p></div>
+                </div>
+                <div class="contact-social">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/rahat.ahmed.948943" target="_blank">📘</a>
+                        <a href="https://github.com/rahatahmedbd" target="_blank">🐙</a>
+                        <a href="https://instagram.com/rahatahm6d" target="_blank">📷</a>
+                        <a href="https://youtube.com/@RahatAhmedOfficial0" target="_blank">🎬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Message পাঠান</h3>
+                <form onsubmit="handleSubmit(event)">
+                    <input type="text" placeholder="আপনার নাম" required>
+                    <input type="email" placeholder="আপনার Email" required>
+                    <input type="text" placeholder="বিষয়">
+                    <textarea placeholder="আপনার বার্তা" rows="5" required></textarea>
+                    <button type="submit" class="btn">📨 বার্তা পাঠান</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>© 2026 রাহাত আহমেদ। সর্বস্বত্ব সংরক্ষিত।</p>
+        <p>Made with ❤️ in Bangladesh 🇧🇩</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
